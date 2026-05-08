@@ -1,0 +1,129 @@
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+.eggs/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =============================================================================
+# Virtual environments
+# =============================================================================
+venv/
+.venv/
+env/
+ENV/
+.python-version
+
+# =============================================================================
+# Tooling caches
+# =============================================================================
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# Pre-commit
+.pre-commit-cache/
+
+# =============================================================================
+# Jupyter
+# =============================================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# =============================================================================
+# Editors / IDEs
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# =============================================================================
+# Project-specific data (NEVER commit these)
+# =============================================================================
+# Generated synthetic structures, contact matrices, and run outputs.
+data/
+results/
+outputs/
+logs/
+
+# Hi-C / chromatin file formats
+*.cool
+*.mcool
+*.hic
+*.pairs
+*.pairs.gz
+
+# NumPy / HDF5 / pickled arrays
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+
+# Structure files
+*.pdb
+*.cif
+
+# Plot outputs (regenerable; only commit figures intentionally placed in docs/)
+*.png
+*.svg
+*.pdf
+!docs/**/*.png
+!docs/**/*.svg
+!docs/**/*.pdf
+
+# =============================================================================
+# Experiment tracking (added when you wire these in)
+# =============================================================================
+mlruns/
+wandb/
+.dvc/
+.dvc/cache
+
+# =============================================================================
+# Configs that contain secrets or local-only paths
+# =============================================================================
+.env
+.env.*
+!.env.example
+configs/local/
+configs/*.local.yaml
+
+# =============================================================================
+# Snakemake (added later)
+# =============================================================================
+.snakemake/
+
+# =============================================================================
+# Misc
+# =============================================================================
+*.log
+*.tmp
+*.bak
