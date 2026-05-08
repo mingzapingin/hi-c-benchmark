@@ -37,5 +37,5 @@ dependencies:
   - pre-commit
 
   # --- Anything not on conda goes here ---
-  # - pip:
-  #     - some-pip-only-package
+  - pip:
+      - hatchling
