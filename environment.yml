@@ -1,0 +1,41 @@
+name: hic-benchmark
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  # --- Python ---
+  - python=3.12
+  - pip
+
+  # --- Scientific core ---
+  - numpy
+  - scipy
+  - scikit-learn
+  - pandas
+
+  # --- Hi-C I/O ---
+  - cooler
+  - cooltools
+
+  # --- Visualization ---
+  - matplotlib
+  - seaborn
+  - plotly
+
+  # --- Notebooks ---
+  - jupyterlab
+  - ipykernel
+
+  # --- Configuration ---
+  - pyyaml
+
+  # --- Dev tooling ---
+  - pytest
+  - pytest-cov
+  - ruff
+  - mypy
+  - pre-commit
+
+  # --- Anything not on conda goes here ---
+  # - pip:
+  #     - some-pip-only-package
